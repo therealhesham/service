@@ -15,4 +15,4 @@ RUN npm install --production
 EXPOSE 3000
 
 # أمر التشغيل
-CMD ["node", "index.js"]
+CMD ["node", "app.js"]
