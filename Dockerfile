@@ -12,7 +12,7 @@ COPY app.js ./
 RUN npm install --production
 
 # حدد البورت اللي هيتعرض للخارج
-EXPOSE 3000
+EXPOSE 4700
 
 # أمر التشغيل
 CMD ["node", "app.js"]
