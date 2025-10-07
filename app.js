@@ -1,7 +1,7 @@
 const express = require('express');
 const axios = require('axios');
 const app = express();
-const PORT = 3000;
+const PORT = 4700;
 
 // أي طلب يوصل هنا يتبعت للـ Service الداخلي
 app.use(express.json());
